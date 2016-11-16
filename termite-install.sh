@@ -4,7 +4,7 @@ git clone --recursive https://github.com/thestinger/termite.git
 git clone https://github.com/thestinger/vte-ng.git
 
 sudo apt-get install gtk-doc-tools libglib2.0-dev gobject-introspection valac \
-	             libpango1.0-dev libgtk-3-dev libgnutls-dev g++ git\
+	             libpango1.0-dev libgtk-3-dev libgnutls28-dev g++ git\
 		     libgirepository1.0-dev libxml2-utils gperf
 
 mkdir devenv
