@@ -15,7 +15,7 @@ cd vte-ng && ./autogen.sh --prefix=$(realpath ../devenv) && make -j$(nproc) && m
 
 cd ../termite
 sed -i 's/$</$< ..\/devenv\/lib\/libvte-2.91.a/' Makefile
-sed -i 's/${DESTDIR}\/etc/${DESTDIR}{PREFIX}\/etc/' Makefile
+sed -i 's/${DESTDIR}\/etc/${DESTDIR}${PREFIX}\/etc/' Makefile
 PKG_CONFIG_PATH=$(realpath ../devenv/lib/pkgconfig) make -j$(nproc)
 
 echo "##############################README#######################################"
