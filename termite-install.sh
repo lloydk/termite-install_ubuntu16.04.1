@@ -4,7 +4,7 @@
 
 sudo apt-get install gtk-doc-tools libglib2.0-dev gobject-introspection valac \
 	             libpango1.0-dev libgtk-3-dev libgnutls28-dev g++ git\
-		     libgirepository1.0-dev libxml2-utils gperf
+		     libgirepository1.0-dev libxml2-utils gperf libpcre2-dev
 		     
 git clone --recursive https://github.com/thestinger/termite.git
 git clone https://github.com/thestinger/vte-ng.git
